@@ -1,10 +1,5 @@
 #include <node.h>
-/*
-20.3 使用V8编写C++插件
-N-API为我们封装了底层的一些差异以及提供了更友好、简单的API。当然我们也可以绕过他，直接使用V8编写插件。首先新建一个test.cc
 
-
-*/
 namespace demo {
 
 using v8::FunctionCallbackInfo;
