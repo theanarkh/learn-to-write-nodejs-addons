@@ -1,0 +1,5 @@
+Release/obj.target/test/test.o: ../test.cc \
+  /var/root/Library/Caches/node-gyp/16.2.0/include/node/node_api.h \
+  /var/root/Library/Caches/node-gyp/16.2.0/include/node/js_native_api.h \
+  /var/root/Library/Caches/node-gyp/16.2.0/include/node/js_native_api_types.h \
+  /var/root/Library/Caches/node-gyp/16.2.0/include/node/node_api_types.h
