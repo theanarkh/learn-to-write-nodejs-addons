@@ -1,0 +1,1 @@
+cmd_Release/io_uring.node := ln -f "Release/obj.target/io_uring.node" "Release/io_uring.node" 2>/dev/null || (rm -rf "Release/io_uring.node" && cp -af "Release/obj.target/io_uring.node" "Release/io_uring.node")
