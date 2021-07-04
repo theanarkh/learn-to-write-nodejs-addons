@@ -97,11 +97,11 @@ int uv__socket(int domain, int type, int protocol) {
     setsockopt(sockfd, SOL_SOCKET, SO_NOSIGPIPE, &on, sizeof(on));
   }
 #endif
+  int on = 1;
+  setsockopt(sockfd, SOL_SOCKET, SO_REUSEPORT, &on, sizeof(on));
   struct sockaddr_in saddr;
   uv_ip4_addr("127.0.0.1", 8888, &saddr);
   bind(sockfd, (struct sockaddr*) &saddr, sizeof(saddr));
-  int on = 1;
-  u_int32_t ret = setsockopt(sockfd, SOL_SOCKET, SO_REUSEPORT, &on, sizeof(on));
   return sockfd;
 }
 

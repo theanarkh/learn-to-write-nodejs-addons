@@ -1,6 +1,8 @@
 {
     "files.associations": {
         "__config": "cpp",
-        "__nullptr": "cpp"
+        "__nullptr": "cpp",
+        "__locale": "cpp",
+        "functional": "cpp"
     }
 }
