@@ -3,6 +3,7 @@ const { Readable } = require('stream');
 
 class FileReader extends Readable {
     constructor({fd, offset, bufferSize}) {
+	super();
         this.fd = fd;
         this.offset = offset || 0;
         this.bufferSize = bufferSize;
