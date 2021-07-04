@@ -1,0 +1,20 @@
+{
+  "name": "nodejs-io_uring",
+  "version": "1.0.0",
+  "description": "",
+  "main": "FileReader.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "install": "node-gyp rebuild"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theanarkh/learn-to-write-nodejs-addons/tree/master/napi-addon/io_uring"
+  },
+  "keywords": [
+    "io_uring"
+  ],
+  "author": "gc",
+  "license": "ISC",
+  "gypfile": true
+}
